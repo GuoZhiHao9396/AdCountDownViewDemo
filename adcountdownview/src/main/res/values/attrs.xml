@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CountDownView">
+        <!--底盘的颜色-->
+        <attr name="gzh_canvasbase_color" format="color"/>
+        <!--进度条的颜色-->
+        <attr name="gzh_progress_color" format="color"/>
+        <!--进度条粗细-->
+        <attr name="gzh_progress_size" format="dimension"/>
+        <!--文字内容-->
+        <attr name="gzh_text_content" format="string"/>
+        <!--文字颜色-->
+        <attr name="gzh_text_color" format="color"/>
+        <!--文字大小-->
+        <attr name="gzh_text_size" format="dimension"/>
+        <!--倒计时间-->
+        <attr name="gzh_time_size" format="integer"/>
+    </declare-styleable>
+</resources>

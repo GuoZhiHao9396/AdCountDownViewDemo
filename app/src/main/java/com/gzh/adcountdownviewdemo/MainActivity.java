@@ -1,5 +1,6 @@
 package com.gzh.adcountdownviewdemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -27,12 +28,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFinishCount() {
                 Toast.makeText(MainActivity.this, "加载完毕", Toast.LENGTH_SHORT).show();
+                Intent in = new Intent(MainActivity.this, SendActivity.class);
+                startActivity(in);
+                finish();
             }
         });
         cdv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                cdv.start();
+                cdv.stop();
+                Intent in = new Intent(MainActivity.this, SendActivity.class);
+                startActivity(in);
+                finish();
             }
         });
     }

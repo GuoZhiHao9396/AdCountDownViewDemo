@@ -5,19 +5,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@mipmap/ad"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <com.gzh.adcountdownview.CountDownView
         android:id="@+id/cdv"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_alignParentRight="true"
         android:layout_margin="10dp"
-        app:gzh_canvasbase_color="#00ff00"
-        app:gzh_progress_color="#ff00ff"
+        app:gzh_canvasbase_color="#FFFFFF"
+        app:gzh_progress_color="#00aaff"
         app:gzh_progress_size="2dp"
-        app:gzh_text_color="#ffff00"
+        app:gzh_text_color="#000000"
         app:gzh_text_size="12sp"
         app:gzh_time_size="5000"/>
+
 </RelativeLayout>

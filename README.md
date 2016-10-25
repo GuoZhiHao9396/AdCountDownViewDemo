@@ -46,17 +46,17 @@ Step 2. Add the dependency
 #使用介绍
 
 1.xml属性设置
-
+```java
 gzh_canvasbase_color：底盘的颜色
 gzh_progress_color：进度条的颜色
 gzh_progress_size：进度条粗细
-	gzh_text_content：文字内容
+gzh_text_content：文字内容
 gzh_text_color：文字颜色
 gzh_text_size：文字大小
 gzh_time_size：倒计时间
-
+```
 2.java代码设置
-
+```java
 public class MainActivity extends AppCompatActivity {
     CountDownView cdv;
 
@@ -92,3 +92,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+```

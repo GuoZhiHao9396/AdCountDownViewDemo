@@ -26,5 +26,8 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
-    compile project(':adcountdownview')
+    //本地包
+    //compile project(':adcountdownview')
+    //在线包
+    compile 'com.github.GuoZhiHao9396:AdCountDownViewDemo:v1.0.0'
 }

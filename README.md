@@ -1,5 +1,5 @@
 # AdCountDownViewDemo
-#欢迎页倒计时控件
+# 欢迎页倒计时控件
 
 ![image](http://getimg.jrj.com.cn/images/2014/02/tmtpostimg/one_20140217152310659.jpg)
 
@@ -48,7 +48,7 @@ Step 2. Add the dependency
 	    <version>v1.0.1</version>
 	</dependency>
 ```
-#使用介绍
+# 使用介绍
 
 1.xml属性设置
 ```java
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-#License
+# License
 ```text
 Copyright 2016 ZhiHao Guo
 
